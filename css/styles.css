@@ -1,0 +1,80 @@
+body {
+    background-color: #3447b2;
+}
+
+.mb-4 {
+    color: #3447b2;
+    text-align: left
+}
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li{
+    position: relative;
+    margin: 8px 0px 8px 0px;
+    padding: 12px 8px 12px 20px;
+    font-size: 18px;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background: white;
+}
+
+ul li.checked{
+    background: grey;
+    color: white;
+    text-decoration: line-through;
+    margin: 8px 0px 8px 0px;
+    padding: 12px 8px 12px 20px;
+    font-size: 18px;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);   
+}
+
+ul li:hover {
+    background: #ddd;
+    transition: 0.3s;
+}
+
+ul li.checked:hover {
+    background: #8e8e8e;
+    transition: 0.8s;
+}
+
+#add_text {
+    position: relative;
+    margin: 8px 0px 8px 0px;
+    padding: 12px 8px 12px 20px;
+    font-size: 18px;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background: white; 
+}
+
+.delete {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+    transition: 0.5s;
+}
+
+.delete:hover {
+    background-color: #ff1100;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.box {
+    cursor: pointer;
+    position: relative;
+    height: 15px;
+    width: 15px;
+    background-color: grey;
+    margin-right: 5px;
+}
